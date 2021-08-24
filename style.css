@@ -255,19 +255,29 @@ header {
   width: 100%;
 }
 
-.scroll-animation {
+/* .scroll-animation {
   display: block;
   margin-top: 23rem;
   height: 10rem;
   position: relative;
   overflow: hidden;
+} */
+
+.scroll-animation {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  overflow: hidden;
+  height: 10rem;
+  width: 4px;
 }
 
 .scroll-animation::before {
   content: '';
   background: #000;
   height: 10rem;
-  width: 2px;
+  width: 3px;
   opacity: 0;
   
   position: absolute;

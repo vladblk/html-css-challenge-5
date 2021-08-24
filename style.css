@@ -2,18 +2,6 @@
   --color-primary: #E1251B;
 }
 
-/* @keyframes train {
-  from {
-    -webkit-transform:translate(42px,-14px);
-    transform:translate(42px,-14px)
-  }
-
-  to {
-    -webkit-transform:translate(0);
-    transform:translate(0)
-  }
- } */
-
  @keyframes train {
   from {
     -webkit-transform:translate(84px,-28px);
@@ -254,14 +242,6 @@ header {
   transform: scaleY(1);
   width: 100%;
 }
-
-/* .scroll-animation {
-  display: block;
-  margin-top: 23rem;
-  height: 10rem;
-  position: relative;
-  overflow: hidden;
-} */
 
 .scroll-animation {
   display: block;
